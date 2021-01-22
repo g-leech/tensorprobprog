@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tpp"
+version = "0.1.0"
+description = ""
+authors = ["Gavin Leech <g@gleech.org>", "Laurence Aitchison"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.7.1"
+numpy = "^1.19.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
